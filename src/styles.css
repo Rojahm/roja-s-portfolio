@@ -1,0 +1,12 @@
+body {
+  background-color: brown;
+}
+h1 {
+  font-family: "Piazzolla", serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
