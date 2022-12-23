@@ -1,12 +1,52 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --branding-color: #202020;
+  --btn-color: #272142;
+  --secondary-font: "Montserrat", sans-serif;
+}
+
 body {
-  background-color: brown;
+  background: var(--branding-color);
 }
 h1 {
-  font-family: "Piazzolla", serif;
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 700;
 }
 h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 72px;
+}
+.header {
+  height: 118px;
+}
+.hero {
+  background-image: url("/img/bg.png");
+  background-position: center;
+  font-family: var(--primary-font);
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero .text {
+  margin: 0 auto;
+  width: 460px;
+}
+.hero p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero h1 {
+  padding-top: 276px;
+}
+.btn-hero {
+  color: var(--btn-color);
+  background-color: #ffffff;
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-family: var(--secondary-font);
+  margin-bottom: 301px;
 }
