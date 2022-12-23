@@ -39,14 +39,17 @@ h2 {
 .hero h1 {
   padding-top: 276px;
 }
-.btn-hero {
-  color: var(--btn-color);
+.hero .btn {
   background-color: #ffffff;
+  border-radius: 50px;
+  margin-bottom: 301px;
+}
+.btn-hero {
+  text-decoration: none;
+  color: var(--btn-color);
   line-height: 17px;
   font-size: 14px;
   font-weight: 700;
   padding: 18px 30px;
-  border-radius: 50px;
   font-family: var(--secondary-font);
-  margin-bottom: 301px;
 }
