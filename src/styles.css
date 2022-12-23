@@ -18,6 +18,10 @@ h2 {
 }
 .header {
   height: 118px;
+  margin: 0 100px;
+}
+.navbar-collapse {
+  flex-grow: unset;
 }
 .hero {
   background-image: url("/img/bg.png");
